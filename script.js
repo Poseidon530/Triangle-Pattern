@@ -4,6 +4,15 @@ var draw = () => {
 	ctx.beginPath();
 	ctx.moveTo(500, 50);
 	ctx.lineTo(50, 500);
-	ctx.stroke();
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(50,500);
+    ctx.lineTo(550,500);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(550,500);
+    ctx.lineTo(500,50);
+    ctx.stroke();
 }
 draw();
+    

@@ -12,7 +12,9 @@ var draw = () => {
     ctx.beginPath();
     ctx.moveTo(550,500);
     ctx.lineTo(500,50);
-    ctx.stroke();
+	ctx.stroke();
+	ctx.fillStyle("rgb(255, 0, 0)")
+	ctx.fill();
 }
 draw();
     
